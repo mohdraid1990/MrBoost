@@ -1,0 +1,310 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Long Cang", cursive;
+  font-weight: 400;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #004aad;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+
+}
+ul {
+  list-style: none;
+}
+header .logo {
+  margin-left: 39px;
+
+}
+.logo h1 {
+  font-size: 83px;
+  font-weight: 400;
+  line-height: 124.33px;
+  text-align: center;
+  color: #ffffff;
+}
+header nav {
+  width: 96%;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+nav .list {
+  display: flex;
+  gap: 40px;
+}
+
+.list li a {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 59.92px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.list .active {
+  
+  height: 77px;
+  display: block;
+  background-color: #ff0000;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  white-space: nowrap;
+  padding: 12px 16px 0 10px;
+  cursor: pointer;
+}
+.mobile{
+  display: none;
+}
+
+.list .active a {
+  width: 151px;
+  height: 45px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 47.94px;
+  text-align: center;
+  
+  text-decoration: none;
+height: 45px;
+display: block;
+color: #ffffff;
+}
+
+.main-header{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.content-header {
+  width: 610px;
+  position: absolute;
+  left: 34%;
+}
+.img-1 {
+  position: absolute;
+  top: 44%;
+  right: 21%;
+}
+.image-1{
+  margin-left: 250px;
+}
+
+.line {
+  width: 602px;
+  height: 39px;
+  background-color: #FFFFFF4D;
+  margin-top: 40px;
+}
+.icons {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 92px;
+  
+}
+
+
+main {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 40px;
+  flex-wrap: wrap;
+}
+.avator {
+  border-radius: 50%;
+  background-color: #004AAD;
+  width: 310px;
+  height: 310px;
+  position: relative;
+  border: 1px solid #000000;
+  overflow: hidden;
+}
+
+.avator img {
+  width: 288px;
+  height: 293px;
+  object-fit: cover;
+  position: absolute;
+  top: 5%;
+
+}
+
+.text-main {
+  width: 841px;
+
+ 
+}
+.text-main h1 {
+font-size: 83px;
+font-weight: 400;
+line-height: 124.33px;
+text-align: center;
+
+}
+.text-main p {
+font-size: 36px;
+font-weight: 400;
+line-height: 36px;
+text-align: center;
+color: #000000;
+
+}
+.text-main p a {
+  
+    text-decoration: underline;
+    color: #000000;
+  
+  
+}
+
+
+
+
+.buy {
+  width: 100%;
+  background-color: #004AAD;
+  margin-top: 120px;
+position: relative;
+}
+
+.money .money-desktop{
+  position: absolute;
+  right: 0;
+  top: -30px;
+}
+.money-mobile {
+  display: none;
+}
+
+.buy  h1 {
+color: #ffffff;
+  font-size: 99px;
+  font-weight: 400;
+  line-height: 148.3px;
+
+  
+padding-left: 102px;
+
+
+
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-right: 127px;
+
+}
+
+.card-1 {
+  padding-left: 43px;
+  max-width: 451px;
+  height: 392px;
+  margin-top: -13px;
+}
+  
+
+
+.card-1 h1 {
+  color: #ffffff;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 65.91px;
+  white-space: nowrap;
+  padding-left: 0px;
+
+
+}
+
+.card-1 .text-card  {
+  width: 418px;
+  height: 266px;
+
+  
+}
+
+.card-1 .text-card p {
+ color: #ffffff;
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+
+
+}
+
+.text-card p a {
+  
+  
+    text-decoration: underline;
+    color: #ffffff;
+  
+  
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtube {
+  width: 100%;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.idea {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  width: 100%;
+  background-color: #000000;
+  margin-top: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+footer p {
+  color:  #FFFFFF;
+font-size: 44px;
+font-weight: 400;
+line-height: 65.91px;
+text-align: center;
+width: 1300px;
+padding-top: 40px;
+
+}
